@@ -31,4 +31,4 @@ jobs:
           sbom-standard: cyclonedx
           sbom-version: 1.5
           sbom-format: json
-          artifact-name: lifecycle-app-sbom.json
+          artifact-name: nodeGoatGithub-sbom
