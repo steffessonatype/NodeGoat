@@ -1,4 +1,4 @@
-name: Sonatype Workflow
+name: Sonatype Evaluate Action Workflow
 on: push
 jobs:
   sonatype-cli:
