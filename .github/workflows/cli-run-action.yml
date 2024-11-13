@@ -10,7 +10,7 @@ jobs:
       - name: Setup Sonatype CLI
         uses: sonatype/actions/setup-iq-cli@v1
         with:
-          iq-cli-version: 1.184.0-0
+          iq-cli-version: latest
 
       # Sonatype CLI requires Java to run
       - name: Set up JDK 17
