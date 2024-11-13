@@ -27,4 +27,4 @@ jobs:
           username: admin
           password: admin1234
           application-id: NodeGoat__steffessonatype
-          scan-targets: package.json package-lock.json
+          scan-targets: package-lock.json
