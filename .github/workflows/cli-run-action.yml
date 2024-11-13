@@ -9,8 +9,8 @@ jobs:
       # Make Sonatype CLI available to GitHub runners
       - name: Setup Sonatype CLI
         uses: sonatype/actions/setup-iq-cli@v1
-        # with:
-          # iq-cli-version: latest
+        with:
+          iq-cli-version: 1.184.0-0
 
       # Sonatype CLI requires Java to run
       - name: Set up JDK 17
