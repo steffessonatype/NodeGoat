@@ -12,6 +12,11 @@ jobs:
         with:
           iq-cli-version: latest
 
+      # Check out your code
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@v4
+
       # Sonatype CLI requires Java to run
       - name: Set up JDK 17
         uses: actions/setup-java@v4
@@ -27,4 +32,4 @@ jobs:
           username: admin
           password: admin1234
           application-id: NodeGoat__steffessonatype
-          scan-targets: package-lock.json
+          scan-targets: package.json package-lock.json
